@@ -19,7 +19,7 @@ function Users() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/public">
       <div>
         <Route path="/" exact component={MainPage} />
         <Route path="/search/" component={SearchPage} />
