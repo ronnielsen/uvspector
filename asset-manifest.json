@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uvspector/static/css/main.7a62d19c.chunk.css",
+    "main.js": "/uvspector/static/js/main.c3b6d538.chunk.js",
+    "main.js.map": "/uvspector/static/js/main.c3b6d538.chunk.js.map",
+    "runtime~main.js": "/uvspector/static/js/runtime~main.d3a02328.js",
+    "runtime~main.js.map": "/uvspector/static/js/runtime~main.d3a02328.js.map",
+    "static/js/2.e673ce72.chunk.js": "/uvspector/static/js/2.e673ce72.chunk.js",
+    "static/js/2.e673ce72.chunk.js.map": "/uvspector/static/js/2.e673ce72.chunk.js.map",
+    "index.html": "/uvspector/index.html",
+    "precache-manifest.cca34b1107ba76de5376679e2ce74221.js": "/uvspector/precache-manifest.cca34b1107ba76de5376679e2ce74221.js",
+    "service-worker.js": "/uvspector/service-worker.js",
+    "static/css/main.7a62d19c.chunk.css.map": "/uvspector/static/css/main.7a62d19c.chunk.css.map"
+  }
+}
