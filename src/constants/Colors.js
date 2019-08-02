@@ -1,5 +1,3 @@
-const tintColor = 'white';
-
 export default {
   green: 'rgba(60,200,106,1)',
   green10: 'rgba(60,200,106,.1)',
