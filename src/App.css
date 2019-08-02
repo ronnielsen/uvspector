@@ -2,6 +2,11 @@ div {
   box-sizing: border-box;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .App {
   text-align: left;
   height: 100vh;
@@ -87,12 +92,63 @@ div {
   border-radius: 45px;
   height: 64px;
   width: 64px;
-  background: black;
+  background: #111;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 32px;
+}
+
+.fixed-button.invert {
+  background: limegreen;
+  color: #111;
+}
+
+.fixed-button.cancel {
+  background: orangered;
+  color: #111;
+  right: 104px;
+}
+
+.search-container {
+  background: #111;
+  color: white;
+  padding: 40px;
+  height: 100vh;
+  width: 100vw;
+  transition-duration: 1000ms;
+}
+
+.title {
+  font-size: 24px;
+  color: rgba(255,255,255,.5);
+}
+
+input.geosuggest__input {
+  font-size: 80px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-family: 'IBM Plex Serif', serif;
+  border-bottom: 2px solid transparent;
+
+}
+
+input.geosuggest__input:focus {
+  outline: none;
+  border-bottom: 2px solid white;
+  transition-duration: 1000ms;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.geosuggest__suggests-wrapper {
+  font-size: 48px;
 }
 
 @media (max-width: 639px) {
