@@ -24,7 +24,7 @@ function App() {
         <Route path="/" exact component={MainPage} />
         <Route path="/search/" component={SearchPage} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
