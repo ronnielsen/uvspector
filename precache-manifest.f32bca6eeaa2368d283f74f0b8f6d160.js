@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5288b1b1ef60b781884418e2fa31c325",
+    "revision": "caaafc9ef256b428f5217651a64afef9",
     "url": "/uvspector/index.html"
   },
   {
