@@ -19,7 +19,7 @@ function Users() {
 
 function App() {
   return (
-    <Router>
+    <Router basepath='/uvspector'>
       <Route path="/" exact component={MainPage} />
       <Route path="/search/" component={SearchPage} />
       <Route path="/users/" component={Users} />
