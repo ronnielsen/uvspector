@@ -14,7 +14,7 @@ function SearchPage() {
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/uvspector">
       <Switch>
         <Route path="/" exact component={MainPage} />
         <Route path="/search" component={SearchPage} />
