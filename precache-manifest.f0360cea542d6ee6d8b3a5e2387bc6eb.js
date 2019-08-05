@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74afda8c1a4f857de017e80eca463a33",
+    "revision": "16659e1442e386b05df404bb16f48164",
     "url": "/uvspector/index.html"
   },
   {
-    "revision": "1ea88d931e2e5ac56a0f",
+    "revision": "999555b589346b73f59a",
     "url": "/uvspector/static/css/main.58f194b8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uvspector/static/js/2.384b8f90.chunk.js"
   },
   {
-    "revision": "1ea88d931e2e5ac56a0f",
-    "url": "/uvspector/static/js/main.faf3d179.chunk.js"
+    "revision": "999555b589346b73f59a",
+    "url": "/uvspector/static/js/main.d134199b.chunk.js"
   },
   {
     "revision": "60962800f9b9b7187e21",
