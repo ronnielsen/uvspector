@@ -19,11 +19,7 @@ function Users() {
 
 function App() {
   return (
-    <BrowserRouter basename="build">
-      <Route path="/" exact component={MainPage} />
-      <Route path="/search/" component={SearchPage} />
-      <Route path="/users/" component={Users} />
-    </BrowserRouter>
+    <div>Hello World </div>
   );
 }
 
