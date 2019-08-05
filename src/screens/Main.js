@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import FA from 'react-fontawesome';
 import Colors from '../constants/Colors';
+import { Link } from "react-router-dom";
 
 function Main() {
 
@@ -32,7 +33,7 @@ function Main() {
       <div className="content">
         <div className="label">UV Index for</div>
           <div className="location-name">
-            <a href="/#/search">{location}</a>
+            <Link to="/search">{location}</Link>
           </div>
         <div className="uv-number" style={{color: myUV}}>{uv}</div>
         <div className="uv-status" style={{color: myUV}}>{status}</div>
@@ -40,11 +41,11 @@ function Main() {
       <div className="fixed-button buddy" style={{backgroundColor: Colors.black25}} onClick={handleSetUV}>
         <FA name="random" />
       </div>
-      <a href="/#/search">
+      <Link to="/search">
         <div className="fixed-button">
           <FA name="search" style={{position: 'relative', top: -1}}/>
         </div>
-      </a>
+      </Link>
     </div>
   );
 }

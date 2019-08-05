@@ -2,6 +2,7 @@ import React from 'react';
 import Geosuggest from 'react-geosuggest';
 import FA from 'react-fontawesome';
 import Colors from '../constants/Colors';
+import { Link } from "react-router-dom";
 
 function Search() {
   const fixtures = [
@@ -22,16 +23,16 @@ function Search() {
           radius="20" autofocus={true}
           country="us"
            />
-          <a href="/">
-            <div className="fixed-button invert" style={{backgroundColor: Colors.green}}>
-              <FA name="check" />
-            </div>
-        </a>
-        <a href="/">
+        <Link to="/">
+          <div className="fixed-button invert" style={{backgroundColor: Colors.green}}>
+            <FA name="check" />
+          </div>
+        </Link>
+        <Link to="/">
           <div className="fixed-button cancel" style={{backgroundColor: Colors.white25}}>
             <FA name="times" />
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );
