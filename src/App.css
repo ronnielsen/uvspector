@@ -197,6 +197,9 @@ ul {
     right: 16px;
     position: fixed;
   }
+  .buddy {
+    right: 96px; 
+  }
   .search-container {
     padding: 16px;
   }
