@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Main from './screens/Main';
 import Search from './screens/Search';
 import './App.css';
@@ -19,11 +19,11 @@ function Users() {
 
 function App() {
   return (
-    <Router basepath='/uvspector'>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Route path="/" exact component={MainPage} />
       <Route path="/search/" component={SearchPage} />
       <Route path="/users/" component={Users} />
-    </Router>
+    </BrowserRouter>
   );
 }
 
