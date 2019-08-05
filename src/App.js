@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Main from './screens/Main';
 import Search from './screens/Search';
 import './App.css';
@@ -19,10 +19,11 @@ function Users() {
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Route path="/" exact component={MainPage} />
-      <Route path="/search/" component={SearchPage} />
-      <Route path="/users/" component={Users} />
+    <HashRouter>
+      <Switch>
+        <Route path="/" exact component={MainPage} />
+        <Route path="/search/" component={SearchPage} />
+      </Switch>
     </BrowserRouter>
   );
 }
