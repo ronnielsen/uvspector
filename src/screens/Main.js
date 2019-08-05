@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import FA from 'react-fontawesome';
 import Colors from '../constants/Colors';
 
@@ -40,11 +40,11 @@ function Main() {
       <div className="fixed-button buddy" style={{backgroundColor: Colors.black25}} onClick={handleSetUV}>
         <FA name="random" />
       </div>
-      <div className="fixed-button">
-        <a href="/search">
-          <FA name="search" />
-        </a>
-      </div>
+      <a href="/search">
+        <div className="fixed-button">
+          <FA name="search" style={{position: 'relative', top: -1}}/>
+        </div>
+      </a>
     </div>
   );
 }

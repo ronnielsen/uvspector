@@ -22,16 +22,16 @@ function Search() {
           radius="20" autofocus={true}
           country="us"
            />
-         <div className="fixed-button invert" style={{backgroundColor: Colors.green}}>
           <a href="/">
-            <FA name="check" />
-          </a>
-        </div>
-        <div className="fixed-button cancel" style={{backgroundColor: Colors.white25}}>
-          <a href="/">
+            <div className="fixed-button invert" style={{backgroundColor: Colors.green}}>
+              <FA name="check" />
+            </div>
+        </a>
+        <a href="/">
+          <div className="fixed-button cancel" style={{backgroundColor: Colors.white25}}>
             <FA name="times" />
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   );
