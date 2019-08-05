@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/uvspector/static/css/main.58f194b8.chunk.css",
-    "main.js": "/uvspector/static/js/main.a797704c.chunk.js",
-    "main.js.map": "/uvspector/static/js/main.a797704c.chunk.js.map",
+    "main.js": "/uvspector/static/js/main.a95c51a7.chunk.js",
+    "main.js.map": "/uvspector/static/js/main.a95c51a7.chunk.js.map",
     "runtime~main.js": "/uvspector/static/js/runtime~main.d3a02328.js",
     "runtime~main.js.map": "/uvspector/static/js/runtime~main.d3a02328.js.map",
     "static/js/2.ac2263cd.chunk.js": "/uvspector/static/js/2.ac2263cd.chunk.js",
     "static/js/2.ac2263cd.chunk.js.map": "/uvspector/static/js/2.ac2263cd.chunk.js.map",
     "index.html": "/uvspector/index.html",
-    "precache-manifest.700908eec459b5d6558cb6b901301e67.js": "/uvspector/precache-manifest.700908eec459b5d6558cb6b901301e67.js",
+    "precache-manifest.7fb792e45c2c128d2714fbebb6d07e0e.js": "/uvspector/precache-manifest.7fb792e45c2c128d2714fbebb6d07e0e.js",
     "service-worker.js": "/uvspector/service-worker.js",
     "static/css/main.58f194b8.chunk.css.map": "/uvspector/static/css/main.58f194b8.chunk.css.map"
   }
