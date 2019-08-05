@@ -26,26 +26,29 @@ function Main() {
   }
 
   return (
-    <div className="App" style={{backgroundColor: bg}}>
-      <div className="sol" style={{backgroundColor: myUV}}>
-      </div>
-      <img className="sol shadow spin" src="shadows.svg" alt="sun-shadow"/>
-      <div className="content">
-        <div className="label">UV Index for</div>
-          <div className="location-name">
-            <Link to="/search">{location}</Link>
-          </div>
-        <div className="uv-number" style={{color: myUV}}>{uv}</div>
-        <div className="uv-status" style={{color: myUV}}>{status}</div>
-      </div>
-      <div className="fixed-button buddy" style={{backgroundColor: Colors.black25}} onClick={handleSetUV}>
-        <FA name="random" />
-      </div>
-      <Link to="/search">
-        <div className="fixed-button">
-          <FA name="search" style={{position: 'relative', top: -1}}/>
+    <div>
+      <div className="App" style={{backgroundColor: bg}}>
+        <div className="sol" style={{backgroundColor: myUV}}>
         </div>
-      </Link>
+        <img className="sol shadow spin" src="shadows.svg" alt="sun-shadow"/>
+        <div className="content">
+          <div className="label">UV Index for</div>
+            <div className="location-name">
+              <Link to="/search">{location}</Link>
+            </div>
+          <div className="uv-number" style={{color: myUV}}>{uv}</div>
+          <div className="uv-status" style={{color: myUV}}>{status}</div>
+        </div>
+        <div className="fixed-button buddy" style={{backgroundColor: Colors.black25}} onClick={handleSetUV}>
+          <FA name="random" />
+        </div>
+        <Link to="/search">
+          <div className="fixed-button">
+            <FA name="search" style={{position: 'relative', top: -1}}/>
+          </div>
+        </Link>
+      </div>
+      <div className="browser">Flip your device, or make your browser bigger.</div>
     </div>
   );
 }

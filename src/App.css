@@ -168,6 +168,10 @@ ul {
   padding-left: 0px;
 }
 
+.browser {
+  display: none;
+}
+
 @media (max-width: 639px) {
   .sol {
     top: -50vw;
@@ -185,11 +189,11 @@ ul {
     top: 50vw;;
   }
   .uv-number {
-    line-height: 104px;
-    font-size: 120px;
+    line-height: 120px;
+    font-size: 144px;
   }
   .uv-status {
-    line-height: 64px;
+    line-height: 80px;
     font-size: 48px;
   }
   .fixed-button {
@@ -198,7 +202,7 @@ ul {
     position: fixed;
   }
   .buddy {
-    right: 96px; 
+    right: 96px;
   }
   .search-container {
     padding: 16px;
@@ -206,16 +210,28 @@ ul {
   input {
     text-indent: 0px;
   }
+  .location-name {
+    font-size: 32px;
+    line-height: 48px;
+  }
 }
 
-@media (max-height: 768px) {
-  .uv-number {
-    line-height: 104px;
-    font-size: 120px;
+@media (max-height: 540px) {
+  .App {
+    opacity: 0;
+    display: none;
   }
-  .uv-status {
-    line-height: 64px;
-    font-size: 48px;
+  .browser {
+    display: flex;
+    font-size: 24px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 500px;
   }
 }
 
