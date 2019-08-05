@@ -32,7 +32,7 @@ function Main() {
       <div className="content">
         <div className="label">UV Index for</div>
           <div className="location-name">
-            <a href="/search">{location}</a>
+            <a href="/#/search">{location}</a>
           </div>
         <div className="uv-number" style={{color: myUV}}>{uv}</div>
         <div className="uv-status" style={{color: myUV}}>{status}</div>
@@ -40,7 +40,7 @@ function Main() {
       <div className="fixed-button buddy" style={{backgroundColor: Colors.black25}} onClick={handleSetUV}>
         <FA name="random" />
       </div>
-      <a href="/search">
+      <a href="/#/search">
         <div className="fixed-button">
           <FA name="search" style={{position: 'relative', top: -1}}/>
         </div>

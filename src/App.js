@@ -12,17 +12,12 @@ function SearchPage() {
   return <Search />;
 }
 
-function Users() {
-  return <h2>Users</h2>;
-}
-
-
 function App() {
   return (
     <HashRouter>
       <Switch>
         <Route path="/" exact component={MainPage} />
-        <Route path="/search/" component={SearchPage} />
+        <Route path="/search" component={SearchPage} />
       </Switch>
     </HashRouter>
   );
