@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import FA from 'react-fontawesome';
 import Colors from '../constants/Colors';
 import { Link } from "react-router-dom";
@@ -16,14 +16,48 @@ function Main() {
   const rand = min + (Math.random() * (max-min) - Math.random());
 
   const handleSetUV = e => {
-    setUV(rand.toFixed(0))
-    console.log(uv, myUV, bg, status, location);
-    if (uv < 3) return setMyUV(Colors.green) + setBg(Colors.green10) + setStatus('Mild') + setLocation('Green Hill Zone, WA');
-    if (uv < 6) return setMyUV(Colors.yellow) + setBg(Colors.yellow10) + setStatus('Moderate') + setLocation('Yellow Brick Road, UK');
-    if (uv < 8) return setMyUV(Colors.orange) + setBg(Colors.orange10) + setStatus('High') + setLocation('Orange County, CA');
-    if (uv < 11) return setMyUV(Colors.red) + setBg(Colors.red10) + setStatus('Very High') + setLocation('Red Rock, UT');
-    return setMyUV(Colors.purple) + setBg(Colors.purple10) + setStatus('Extreme') + setLocation('Death Valley, CA');
+    let num = rand.toFixed(0);
+    if (num < 3) {
+      setUV(num)
+      setMyUV(Colors.green)
+      setBg(Colors.green10)
+      setStatus('Mild')
+      setLocation('Green Hill Zone, WA')
+    }
+    else if (num < 6) {
+      setUV(num)
+      setMyUV(Colors.yellow)
+      setBg(Colors.yellow10)
+      setStatus('Moderate')
+      setLocation('Yellow Brick Road, UK')
+    }
+    else if (num < 8) {
+      setUV(num)
+      setMyUV(Colors.orange)
+      setBg(Colors.orange10)
+      setStatus('High')
+      setLocation('Orange County, CA')
+    }
+    else if (num < 11) {
+      setUV(num)
+      setMyUV(Colors.red)
+      setBg(Colors.red10)
+      setStatus('Very High')
+      setLocation('Red Rock, UT')
+    }
+    else {
+      setUV(num)
+      setMyUV(Colors.purple)
+      setBg(Colors.purple10)
+      setStatus('Extreme')
+      setLocation('Death Valley, CA')
+    }
   }
+
+  useEffect(() => {
+    console.log(uv, myUV, bg, status, location)
+    }
+  )
 
   return (
     <div>
